@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>SparkleSharp</id>
+    <version>$version$</version>
+    <title>SparkleSharp</title>
+    <authors>fiam</authors>
+    <licenseUrl>https://github.com/rainycape/SparkleSharp/blob/master/LICENSE.md</licenseUrl>
+    <projectUrl>https://github.com/rainycape/SparkleSharp/</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>C# bindings for Sparkle.</description>
+    <language>en-US</language>
+    <copyright>Copyright - fiam ©</copyright>
+    <tags>sparkle</tags>
+  </metadata>
+</package>

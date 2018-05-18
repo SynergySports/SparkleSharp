@@ -9,7 +9,6 @@
     <RootNamespace>Sparkle</RootNamespace>
     <AssemblyName>Sparkle</AssemblyName>
     <MacResourcePrefix>Resources</MacResourcePrefix>
-    <ReleaseVersion>3.0</ReleaseVersion>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -39,8 +38,8 @@
     <CustomCommands>
       <CustomCommands>
         <Command>
-          <type>BeforeBuild</type>
-          <command>${ProjectDir}/build_framework.sh</command>
+          <type>AfterBuild</type>
+          <command>cp ${ProjectDir}/3rdparty/Sparkle/build/${ProjectConfigName}/Sparkle.framework ${TargetDir}</command>
           <workingdir></workingdir>
         </Command>
       </CustomCommands>
